@@ -1,0 +1,13 @@
+{
+  "name": "remark-lint-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "remark -e md,txt ."
+  },
+  "devDependencies": {
+    "remark-cli": "^2.1.0",
+    "remark-lint": "^5.2.0"
+  }
+}

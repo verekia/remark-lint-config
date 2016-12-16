@@ -1,0 +1,38 @@
+{
+  "plugins": {
+    "lint": {
+      "blockquote-indentation": 2,
+      "checkbox-character-style": {
+        "checked": "x",
+        "unchecked": " "
+      },
+      "checkbox-content-indent": true,
+      "code-block-style": "fenced",
+      "definition-case": true,
+      "definition-spacing": true,
+      "emphasis-marker": "*",
+      "fenced-code-flag": ["html", "css", "js"],
+      "fenced-code-marker": "`",
+      "file-extension": false,
+      "final-definition": true,
+      "final-newline": true,
+      "first-heading-level": 1,
+      "hard-break-spaces": true,
+      "heading-increment": true,
+      "heading-style": "atx",
+      "link-title-style": "'",
+      "list-item-bullet-indent": true,
+      "list-item-content-indent": true,
+      "list-item-indent": "space",
+      "list-item-spacing": true,
+      "maximum-heading-length": 60,
+      "maximum-line-length": false,
+      "no-auto-link-without-protocol": true,
+      "no-blockquote-without-caret": true,
+      "no-consecutive-blank-lines": true,
+      "no-duplicate-definitions": true,
+      "no-duplicate-headings-in-section": true,
+      "no-duplicate-headings": true
+    }
+  }
+}

@@ -2,10 +2,10 @@
 
 ## sub sub
 
-- [ ] List item
-- [x] List item
+- [ ] List item      
+- [x] List item  
 
-Hello *world*
+Hello *world*  
 
 ```js
 hello();

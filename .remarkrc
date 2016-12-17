@@ -11,6 +11,9 @@
       "definition-case": true,
       "definition-spacing": true,
       "emphasis-marker": "*",
+      "external": [
+        "no-trailing-spaces"
+      ],
       "fenced-code-flag": ["html", "css", "js"],
       "fenced-code-marker": "`",
       "file-extension": false,
@@ -55,6 +58,7 @@
       "no-shortcut-reference-link": true,
       "no-table-indentation": true,
       "no-tabs": true,
+      "no-trailing-spaces": true,
       "no-undefined-references": true,
       "no-unused-definitions": true,
       "ordered-list-marker-style": ".",

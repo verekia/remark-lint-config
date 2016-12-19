@@ -750,6 +750,10 @@ mdast-util-heading-style@^1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/mdast-util-heading-style/-/mdast-util-heading-style-1.0.2.tgz#14b7cf2802881d09af0cfdce42026d6bc584fff1"
 
+mdast-util-position@^1.0.0:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/mdast-util-position/-/mdast-util-position-1.0.2.tgz#3b7daff09ac8ab7219ad692711d447c1a96aed13"
+
 mdast-util-to-string@^1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/mdast-util-to-string/-/mdast-util-to-string-1.0.2.tgz#dc996a24d2b521178d3fac3993680c03a683e1dd"
@@ -1032,15 +1036,22 @@ remark-cli@^2.1.0:
     remark "^6.0.0"
     unified-args "^2.1.0"
 
-remark-lint-no-trailing-spaces@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/remark-lint-no-trailing-spaces/-/remark-lint-no-trailing-spaces-1.1.0.tgz#f680777f166efd42f271cb2a231e454156ee16b8"
+remark-lint-blank-lines-1-0-2:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/remark-lint-blank-lines-1-0-2/-/remark-lint-blank-lines-1-0-2-1.0.0.tgz#dabcb4fdbe2642a07e6034207c5278c3abeca228"
+  dependencies:
+    mdast-util-position "^1.0.0"
+    unist-util-visit "^1.0.0"
+
+remark-lint-no-trailing-spaces@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/remark-lint-no-trailing-spaces/-/remark-lint-no-trailing-spaces-1.2.2.tgz#7de1f309278bc4f8039ec35fb891c94c2eed1dab"
   dependencies:
     unist-util-visit "^1.1.1"
 
-remark-lint@^5.2.0:
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/remark-lint/-/remark-lint-5.2.0.tgz#fde658817a49077efbe59acf16fd43826db52961"
+remark-lint@^5.4.0:
+  version "5.4.0"
+  resolved "https://registry.yarnpkg.com/remark-lint/-/remark-lint-5.4.0.tgz#6e7c77b90844ad1931761c62af9d65ab46e6734a"
   dependencies:
     decamelize "^1.0.0"
     load-plugin "^2.0.0"
@@ -1049,10 +1060,11 @@ remark-lint@^5.2.0:
     plur "^2.0.0"
     remark-message-control "^2.0.0"
     trough "^1.0.0"
-    unist-util-position "^2.0.1"
+    unist-util-generated "^1.1.0"
+    unist-util-position "^3.0.0"
     unist-util-visit "^1.0.0"
     vfile-location "^2.0.0"
-    vfile-sort "^1.0.0"
+    vfile-sort "^2.0.0"
     wrapped "^1.0.1"
 
 remark-message-control@^2.0.0:
@@ -1377,15 +1389,19 @@ unified@^5.0.0:
     vfile "^2.0.0"
     x-is-string "^0.1.0"
 
+unist-util-generated@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/unist-util-generated/-/unist-util-generated-1.1.0.tgz#8c95657ff12b32eaffe0731fbb37da6995fae01b"
+
 unist-util-modify-children@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/unist-util-modify-children/-/unist-util-modify-children-1.1.0.tgz#559203ae85d7a76283277be1abfbaf595a177ead"
   dependencies:
     array-iterate "^1.0.0"
 
-unist-util-position@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/unist-util-position/-/unist-util-position-2.0.1.tgz#1a639df0a0940460a2d8b205e9be704fe07518ec"
+unist-util-position@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/unist-util-position/-/unist-util-position-3.0.0.tgz#e6e1e03eeeb81c5e1afe553e8d4adfbd7c0d8f82"
 
 unist-util-remove-position@^1.0.0:
   version "1.1.0"
@@ -1459,9 +1475,9 @@ vfile-reporter@^3.0.0:
     trim "0.0.1"
     unist-util-stringify-position "^1.0.0"
 
-vfile-sort@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/vfile-sort/-/vfile-sort-1.0.0.tgz#17ee491ba43e8951bb22913fcff32a7dc4d234d4"
+vfile-sort@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/vfile-sort/-/vfile-sort-2.0.0.tgz#7279458d111a9ba3b18effd9f8a0169bb7c5112b"
 
 vfile-statistics@^1.0.0:
   version "1.0.0"

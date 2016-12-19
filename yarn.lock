@@ -257,8 +257,8 @@ dashdash@^1.12.0:
     assert-plus "^1.0.0"
 
 debug@^2.2.0:
-  version "2.4.4"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-2.4.4.tgz#c04d17a654e9202464803f096153f70a6f31f4be"
+  version "2.4.5"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-2.4.5.tgz#34c7b12a1ca96674428f41fe92c49b4ce7cd0607"
   dependencies:
     ms "0.7.2"
 
@@ -750,10 +750,6 @@ mdast-util-heading-style@^1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/mdast-util-heading-style/-/mdast-util-heading-style-1.0.2.tgz#14b7cf2802881d09af0cfdce42026d6bc584fff1"
 
-mdast-util-position@^1.0.0:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/mdast-util-position/-/mdast-util-position-1.0.2.tgz#3b7daff09ac8ab7219ad692711d447c1a96aed13"
-
 mdast-util-to-string@^1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/mdast-util-to-string/-/mdast-util-to-string-1.0.2.tgz#dc996a24d2b521178d3fac3993680c03a683e1dd"
@@ -1036,16 +1032,15 @@ remark-cli@^2.1.0:
     remark "^6.0.0"
     unified-args "^2.1.0"
 
-remark-lint-blank-lines-1-0-2:
+remark-lint-no-leading-spaces@^1.0.0:
   version "1.0.0"
-  resolved "https://registry.yarnpkg.com/remark-lint-blank-lines-1-0-2/-/remark-lint-blank-lines-1-0-2-1.0.0.tgz#dabcb4fdbe2642a07e6034207c5278c3abeca228"
+  resolved "https://registry.yarnpkg.com/remark-lint-no-leading-spaces/-/remark-lint-no-leading-spaces-1.0.0.tgz#f9a7aaae76743f80a1587f911dff4320b7787a3f"
   dependencies:
-    mdast-util-position "^1.0.0"
-    unist-util-visit "^1.0.0"
+    unist-util-visit "^1.1.1"
 
-remark-lint-no-trailing-spaces@^1.2.2:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/remark-lint-no-trailing-spaces/-/remark-lint-no-trailing-spaces-1.2.2.tgz#7de1f309278bc4f8039ec35fb891c94c2eed1dab"
+remark-lint-no-trailing-spaces@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/remark-lint-no-trailing-spaces/-/remark-lint-no-trailing-spaces-1.3.0.tgz#662234b5b269fc1d337bf57035f8216b7f3d5ae7"
   dependencies:
     unist-util-visit "^1.1.1"
 
